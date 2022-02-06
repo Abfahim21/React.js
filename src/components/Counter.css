@@ -1,0 +1,14 @@
+.addButton, .subsButton, .resetButton {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.resetButton{
+    color: red;
+}
+.addButton {
+    color: green;
+}
+.subsButton{
+    color: blue;
+}

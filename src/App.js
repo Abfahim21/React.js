@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
+import DestructuringProps from './components/DestructuringProps';
+import DestructuringPropsClassComponent from './components/DestructuringPropsClassComponent';
+import Hello from './components/Hello';
+import StatePractice from './components/StatePractice';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StatePractice/>
+      <Hello value='practice'>React.JS props</Hello>
+      <Counter/>
+      <DestructuringProps d1='Destructuring' d2='Props'/>
+      <DestructuringPropsClassComponent d3 = 'React.JS' d4 = 'Class'/>
     </div>
   );
 }
