@@ -4,6 +4,7 @@ import DestructuringProps from './components/DestructuringProps';
 import DestructuringPropsClassComponent from './components/DestructuringPropsClassComponent';
 import EventHandler from './components/EventHandler';
 import Hello from './components/Hello';
+import ParentComponent from './components/ParentComponent';
 import StatePractice from './components/StatePractice';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <DestructuringProps d1='Destructuring' d2='Props'/>
       <DestructuringPropsClassComponent d3 = 'React.JS' d4 = 'Class'/>
       <EventHandler/>
+      <ParentComponent/>
     </div>
   );
 }
