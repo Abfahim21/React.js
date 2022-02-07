@@ -8,6 +8,7 @@ import ParentComponent from './components/ParentComponent';
 import StatePractice from './components/StatePractice';
 import ConditionalRendering from './components/ConditionalRendering';
 import NameList from './components/NameList';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ParentComponent/>
       <ConditionalRendering/>
       <NameList/>
+      <Form/>
     </div>
   );
 }
