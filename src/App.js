@@ -6,6 +6,7 @@ import EventHandler from './components/EventHandler';
 import Hello from './components/Hello';
 import ParentComponent from './components/ParentComponent';
 import StatePractice from './components/StatePractice';
+import ConditionalRendering from './components/ConditionalRendering';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <DestructuringPropsClassComponent d3 = 'React.JS' d4 = 'Class'/>
       <EventHandler/>
       <ParentComponent/>
+      <ConditionalRendering/>
     </div>
   );
 }
