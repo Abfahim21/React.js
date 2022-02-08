@@ -24,7 +24,7 @@ export class Form extends Component {
         <label>User Name: </label>
         <input type="text" value={this.state.textMessage} onChange={ this.handleMessageChange }/> <br />
         <label htmlFor="email">Enter Email: </label>
-        <input type="email" name="email" id="email" value={this.state.email} onChange={this.handleEmailChange}/>
+        <input type="email" value={this.state.email} onChange={this.handleEmailChange}/> <br />
     </div>;
   }
 }

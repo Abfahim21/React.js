@@ -9,6 +9,7 @@ import StatePractice from './components/StatePractice';
 import ConditionalRendering from './components/ConditionalRendering';
 import NameList from './components/NameList';
 import Form from './components/Form';
+import Refs from './components/Refs';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <ConditionalRendering/>
       <NameList/>
       <Form/>
+      <Refs/>
     </div>
   );
 }
