@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class HOCv1 extends Component {
+class HoverCounter extends Component {
     constructor(props) {
       super(props)
     
@@ -8,24 +8,21 @@ class HOCv1 extends Component {
          count : 0
       }
     }
-    handleClick = () =>{
-        this.setState (prevState =>{
+    handleHover = () =>{
+        this.setState(prevState=>{
             return {
                 count : prevState.count + 1
             }
         })
     }
-
   render() {
       const { count } = this.state;
     return (
       <div>
-          <h2>High Order Components</h2>
-          <button onClick={this.handleClick}>Clicked {count} Times</button>
-
+          <h2 onMouseOver={ this.handleHover }>This Sentence is Hovered { count } times !</h2>
       </div>
     )
   }
 }
 
-export default HOCv1
+export default HoverCounter

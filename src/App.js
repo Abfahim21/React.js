@@ -11,6 +11,7 @@ import NameList from './components/NameList';
 import Form from './components/Form';
 import Refs from './components/Refs';
 import HOCv1 from './components/HOCv1';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Form/>
       <Refs/>
       <HOCv1/>
+      <HoverCounter/>
     </div>
   );
 }
