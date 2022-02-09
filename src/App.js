@@ -10,6 +10,7 @@ import ConditionalRendering from './components/ConditionalRendering';
 import NameList from './components/NameList';
 import Form from './components/Form';
 import Refs from './components/Refs';
+import HOCv1 from './components/HOCv1';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <NameList/>
       <Form/>
       <Refs/>
+      <HOCv1/>
     </div>
   );
 }
