@@ -12,6 +12,7 @@ import Form from './components/Form';
 import Refs from './components/Refs';
 import HOCv1 from './components/HOCv1';
 import HoverCounter from './components/HoverCounter';
+import { FocusInput } from './components/FocusInput';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Refs/>
       <HOCv1/>
       <HoverCounter/>
+      <FocusInput/>
     </div>
   );
 }
