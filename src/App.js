@@ -13,8 +13,7 @@ import Refs from './components/Refs';
 import HOCv1 from './components/HOCv1';
 import HoverCounter from './components/HoverCounter';
 import { FocusInput } from './components/FocusInput';
-import ComponentA from './components/ComponentA';
-
+import ComponentA from './components/ComponentA'
 function App() {
   return (
     <div className="App">
@@ -35,10 +34,12 @@ function App() {
       <HOCv1/> <hr />
       <HoverCounter/> <hr />
       <FocusInput/> <hr />
-
-      <userProvider userName='Abrar from Context'>
+      <UserProvider>
         <ComponentA/>
-      </userProvider>
+      </UserProvider>
+
+
+      
     </div>
   );
 }
