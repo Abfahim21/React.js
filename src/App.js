@@ -13,24 +13,32 @@ import Refs from './components/Refs';
 import HOCv1 from './components/HOCv1';
 import HoverCounter from './components/HoverCounter';
 import { FocusInput } from './components/FocusInput';
+import ComponentA from './components/ComponentA';
 
 function App() {
   return (
     <div className="App">
       <StatePractice/>
+      <hr />
       <Hello value='practice'>React.JS props</Hello>
+      <hr />
       <Counter/>
-      <DestructuringProps d1='Destructuring' d2='Props'/>
-      <DestructuringPropsClassComponent d3 = 'React.JS' d4 = 'Class'/>
-      <EventHandler/>
-      <ParentComponent/>
-      <ConditionalRendering/>
-      <NameList/>
-      <Form/>
-      <Refs/>
-      <HOCv1/>
-      <HoverCounter/>
-      <FocusInput/>
+      <hr />
+      <DestructuringProps d1='Destructuring' d2='Props'/> <hr />
+      <DestructuringPropsClassComponent d3 = 'React.JS' d4 = 'Class'/> <hr />
+      <EventHandler/> <hr />
+      <ParentComponent/> <hr />
+      <ConditionalRendering/> <hr />
+      <NameList/> <hr />
+      <Form/> <hr />
+      <Refs/> <hr />
+      <HOCv1/> <hr />
+      <HoverCounter/> <hr />
+      <FocusInput/> <hr />
+
+      <userProvider userName='Abrar from Context'>
+        <ComponentA/>
+      </userProvider>
     </div>
   );
 }
