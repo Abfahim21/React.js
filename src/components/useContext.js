@@ -2,8 +2,9 @@ import React from 'react'
 
 const UserContext = React.createContext()
 
-const UserConsumer = UserContext.Consumer
 const UserProvider = UserContext.Provider
+const UserConsumer = UserContext.Consumer
+
 
 export { UserConsumer, UserProvider }
 
